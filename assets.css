@@ -1,6 +1,6 @@
 
 body {
-    background-color: #c1e0fa;
+    background-color: #f5ccd8;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
@@ -63,4 +63,26 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+img {
+    width: auto;
+    max-width: 40%;
+    height: auto;
+    padding: 25px 50px 75px;
+    float: left;
+}
+
+h1 {
+    padding-top: 7em;
+    text-align: center;
+}
+
+.typewrite {
+    color: lightcoral;
+    font-size: x-large;
+}
+
+.text {
+    color: aquamarine;
 }
